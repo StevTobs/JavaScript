@@ -1,0 +1,27 @@
+// let catName = "Fluffy"
+// let catAge = 4
+
+// function neow(){
+//   alert("Meoooooowwwwww!")
+// }
+// How can we write our code in a way so that it's painfully obvious that there is a relationship between the name of the cat the age of the cat and the ability to meow.
+//Tha answer is Object!!
+
+let cat ={
+  name: "Fluffy", //<--- called "Propoty"
+  age: 4,
+  foods: {
+    favorite: "Tuna",
+    leastFavorite: "Oranges"
+  },
+  eyeColor: "blue",
+  meow(){
+    alert("Meooooowwwwww")
+  }
+}
+
+// cat.name
+
+// cat.meow()
+
+cat.foods.favorite

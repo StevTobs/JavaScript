@@ -1,0 +1,14 @@
+https://github.com/StevTobs/JavaScript.git
+
+function greet(name){
+  alert("Hello my name is " + name + "!")
+}
+
+// greet("Tobs")
+
+function tripleMe(x){
+  return 3 * x
+}
+
+let myFavoriteNumber = tripleMe(9)
+alert( myFavoriteNumber )
